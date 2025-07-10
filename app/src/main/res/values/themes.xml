@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Coffeshopp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Coffeshopp" parent="Base.Theme.Coffeshopp" />
+
+    <!-- Style untuk membuat gambar bulat (ShapeableImageView) -->
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item> <!-- Membulatkan gambar sepenuhnya -->
+    </style>
+
+</resources>
